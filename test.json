@@ -1,0 +1,22 @@
+{
+  "steps": [
+    {
+      "name": "sleep",
+      "command": "sleep 5"
+    },
+    {
+      "type": "waiter"
+    },
+    {
+      "name": "echo LOL",
+      "command": "echo 'LOL'"
+    },
+    {
+      "type": "manual"
+    },
+    {
+      "name": "echo 'Manual Step Done'",
+      "command": "echo 'manual done!'"
+    }
+  ]
+}
