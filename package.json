@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Run buildkite pipelines locally",
   "main": "lib/index.js",
+  "bin": {
+    "bkrun": "./lib/index.js"
+  },
   "scripts": {
     "test": "standard | snazzy"
   },
