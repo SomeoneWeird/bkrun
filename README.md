@@ -22,10 +22,10 @@ npm install -g bkrun
 * Supports wait steps (although these don't actually do anything atm)
 * Supports prompt steps
 * Supports manual unblock steps
-* Support basic agent meta-data fetching (not setting, yet)
+* Supports agent meta-data get/set through a mock buildkite-agent
+* Supports environment variables
 
 ## TODOs
 
 * Asynchronous steps are run sequentially (in order)
-* Metadata setting
 * Pipeline uploading from sub-steps
