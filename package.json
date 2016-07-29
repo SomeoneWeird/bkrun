@@ -4,7 +4,8 @@
   "description": "Run buildkite pipelines locally",
   "main": "lib/index.js",
   "bin": {
-    "bkrun": "./lib/index.js"
+    "bkrun": "./lib/run-index.js",
+    "bkrun-agent": "./lib/agent-index.js"
   },
   "scripts": {
     "test": "standard | snazzy"
@@ -30,6 +31,7 @@
     "io-spin": "^0.3.0",
     "merge": "^1.2.0",
     "parse-spawn-args": "^1.0.2",
+    "uuid": "^2.0.2",
     "yamljs": "^0.2.8"
   }
 }
