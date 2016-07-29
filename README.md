@@ -24,8 +24,11 @@ npm install -g bkrun
 * Supports manual unblock steps
 * Supports agent meta-data get/set through a mock buildkite-agent
 * Supports environment variables
+* Supports pipeline uploading (file upload onlys)
 
 ## TODOs
 
 * Asynchronous steps are run sequentially (in order)
-* Pipeline uploading from sub-steps
+* Ensure pipeline-uploading mechanics match (does new env apply to non-uploaded steps going forward? etc)
+* Enable pipeline uploading through stdin
+* Switch command to be bash-compatible
