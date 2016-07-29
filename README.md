@@ -2,7 +2,7 @@
 
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
-Local Buildkite pipeline runner
+Your friendly local [Buildkite](https://buildkite.com/) pipeline runner
 
 [![asciicast](https://asciinema.org/a/d1z752j8coyirw2voj8btyctt.png)](https://asciinema.org/a/d1z752j8coyirw2voj8btyctt)
 
