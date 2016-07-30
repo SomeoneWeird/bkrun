@@ -31,4 +31,3 @@ npm install -g bkrun
 * Asynchronous steps are run sequentially (in order)
 * Ensure pipeline-uploading mechanics match (does new env apply to non-uploaded steps going forward? etc)
 * Enable pipeline uploading through stdin
-* Switch command to be bash-compatible
