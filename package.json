@@ -4,11 +4,13 @@
   "description": "Run buildkite pipelines locally",
   "main": "lib/index.js",
   "bin": {
-    "bkrun": "./lib/run-index.js",
-    "bkrun-agent": "./lib/agent-index.js"
+    "bkrun": "./lib/bkrun.js",
+    "bkrun-agent": "./lib/agent.js"
   },
   "scripts": {
-    "test": "standard | snazzy"
+    "test": "standard | snazzy",
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,8 +26,6 @@
   },
   "homepage": "https://github.com/SomeoneWeird/bkrun#readme",
   "dependencies": {
-    "babel-preset-es2015": "^6.9.0",
-    "babel-register": "^6.11.6",
     "colors": "^1.1.2",
     "inquirer": "^1.1.2",
     "io-spin": "^0.3.0",
@@ -35,6 +35,8 @@
     "yamljs": "^0.2.8"
   },
   "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
     "pre-commit": "^1.1.3"
   }
 }
