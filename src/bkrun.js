@@ -119,7 +119,7 @@ function runCommand (i, step, done) {
 
   proc.on('exit', function (code) {
     spinner.stop()
-    if (code !== 0) {
+    if (code) {
       logOutput(step.name, `Exited with code ${code}`, false)
       process.exit()
     }
